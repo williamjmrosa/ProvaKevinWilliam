@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tela2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.william.provakevinwilliam.Tela2"
+    android:background="@drawable/fundo2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        tools:ignore="UselessParent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/nome1"
+            android:ems="10"
+            android:id="@+id/tc_et_nome" />
+
+        <EditText
+            android:hint="@string/peso_atual1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/tc_et_peso_atual" />
+
+        <EditText
+            android:hint="@string/peso_desejado1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/tc_et_peso_desejado" />
+
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tc_grupo_sexo">
+
+            <RadioButton
+                android:text="@string/masculino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tc_rb_masculino"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:text="@string/feminino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tc_rb_feminino"
+                android:layout_weight="1" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:text="@string/manha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tc_cb_manha"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:text="@string/tarde"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tc_cb_tarde"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+        <CheckBox
+            android:text="@string/noite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tc_cb_noite" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/tc_sp_treino"
+            android:id="@+id/tc_sp_treino">
+        </Spinner>
+        <Button
+            android:text="@string/cadastrar"
+            android:background="@color/orange100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tc_btn_cadastrar"/>
+    </LinearLayout>
+</RelativeLayout>

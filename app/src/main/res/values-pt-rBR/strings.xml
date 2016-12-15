@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Prova Kevin William</string>
+
+    <string-array name="tc_sp_treino">
+        <item>Selecione</item>
+        <item>Leve</item>
+        <item>Moderado</item>
+        <item>Intenso</item>
+    </string-array>
+    <string name="leve">Leve - Trabalhos domésticos de esforço leve a modreado, caminhadas para atividades relacionadas ao cotidiano e ficar sentado por várias horas.
+Caminhadas além das mesmas atividades relacionadas ao compoartament sednetário. Até 3 horas de atividad física por semana.</string>
+    <string name="moderado">Moderado - Ginástica aeróbica, corrida, natação, jogar tênicas, além das atividades relacionadas ao compoartamente leve. Até 12 horas de atividade física por semana.</string>
+    <string name="intenso">
+Intenso - Ciclismo de intensidade moderada, corrida, pular corda, jogar tênis e além das atividades relacionadas ao comportamento moderado. Acima de 12 horas de atividade física por semana.</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="feminino">Feminino</string>
+    <string name="manha">Manhã</string>
+    <string name="masculino">Masculino</string>
+    <string name="noite">Noite</string>
+    <string name="nome1">Nome</string>
+    <string name="peso_atual1">Peso Atual</string>
+    <string name="peso_desejado1">Peso Desejado</string>
+    <string name="tarde">Tarde</string>
+    <string name="com_saude">Com Saúde!</string>
+    <string name="iniciar_meta">Iniciar Meta</string>
+
+</resources>

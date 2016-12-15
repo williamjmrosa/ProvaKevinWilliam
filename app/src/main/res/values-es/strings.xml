@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tc_sp_treino">
+        <item>seleccionar</item>
+        <item>luz</item>
+        <item>Moderado</item>
+        <item>Intenso</item>
+    </string-array>
+    <string name="leve">Tome - ligereza luz Las tareas del hogar, paseos a las actividades relacionadas con la vida diaria y para sentarse durante varias horas.
+El ir de excursión más allá de las mismas actividades relacionadas con un contrato de seducción. Hasta 3 horas de actividad física por semana.</string>
+    <string name="moderado"> </string>
+    <string name="intenso">
+Intenso - moderada intensidad en bicicleta, correr, saltar la cuerda, jugar al tenis y además de las actividades relacionadas con el comportamiento moderado. Más de 12 horas de actividad física por semana.</string>
+    <string name="cadastrar">registrar</string>
+    <string name="feminino">femenino</string>
+    <string name="manha">mañana</string>
+    <string name="masculino">masculino</string>
+    <string name="noite">noche</string>
+    <string name="nome1">nombre</string>
+    <string name="peso_atual1">peso actual</string>
+    <string name="peso_desejado1">peso deseado</string>
+    <string name="tarde">tarde</string>
+    <string name="com_saude">con la Salud</string>
+    <string name="iniciar_meta">Comience Meta</string>
+
+</resources>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Prova Kevin William</string>
+
+    <string-array name="tc_sp_treino">
+        <item>Select</item>
+        <item>Light</item>
+        <item>Moderate</item>
+        <item>Intense</item>
+    </string-array>
+    <string name="leve">Lightweight - Lightweight housework, walking to activities related to everyday life and sitting for several hours.
+Walks beyond the same activities related to a seduction contract. Up to 3 hours of physical activity per week.</string>
+    <string name="moderado">Moderate - Aerobic gymnastics, running, swimming, playing tactics, in addition to activities linked to the lightweight. Up to 12 hours of physical activity per week.</string>
+    <string name="intenso">
+Intense - Moderate intensity cycling, running, skipping rope, playing tennis and beyond activities related to moderate behavior. Over 12 hours of physical activity per week.</string>
+    <string name="cadastrar">Register</string>
+    <string name="feminino">Female</string>
+    <string name="manha">Morning</string>
+    <string name="masculino">Male</string>
+    <string name="noite">Night</string>
+    <string name="nome1">Name</string>
+    <string name="peso_atual1">Current Weight</string>
+    <string name="peso_desejado1">Desired weight</string>
+    <string name="tarde">Afternoon</string>
+    <string name="com_saude">With Health!</string>
+    <string name="iniciar_meta">Start Meta</string>
+
+
+    <string name="nome">Nome: </string>
+
+</resources>
